@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b26be0c-9890-46f3-9226-f794f7199335" name="Default Changelist" comment="" />
+    <list default="true" id="6b26be0c-9890-46f3-9226-f794f7199335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/exception/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/flux/FluxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/flux/FluxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/flux/FluxDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/flux/FluxDemo.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dg5GuNSekWvJpxws6ZtkgGIzbR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -57,34 +65,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MonoDemo.mono">
-    <configuration name="FluxDemo.flux" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExceptionDemo.errorResume">
+    <configuration name="ExceptionDemo.error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.flux.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.flux" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.flux.FluxDemo" />
-      <option name="METHOD_NAME" value="flux" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.exception.ExceptionDemo" />
+      <option name="METHOD_NAME" value="error" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonoDemo.mono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionDemo.errorContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.mono.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.mono" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.mono.MonoDemo" />
-      <option name="METHOD_NAME" value="mono" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.exception.ExceptionDemo" />
+      <option name="METHOD_NAME" value="errorContinue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionDemo.errorResume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactor-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fion.reactor.demo.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.exception.ExceptionDemo" />
+      <option name="METHOD_NAME" value="errorResume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo.log" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactor-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fion.reactor.demo.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.map" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.map.MapDemo" />
+      <option name="METHOD_NAME" value="log" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo.map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactor-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fion.reactor.demo.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.map" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.map.MapDemo" />
+      <option name="METHOD_NAME" value="map" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,8 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MonoDemo.mono" />
-        <item itemvalue="JUnit.FluxDemo.flux" />
+        <item itemvalue="JUnit.ExceptionDemo.errorResume" />
+        <item itemvalue="JUnit.ExceptionDemo.errorContinue" />
+        <item itemvalue="JUnit.ExceptionDemo.error" />
+        <item itemvalue="JUnit.MapDemo.log" />
+        <item itemvalue="JUnit.MapDemo.map" />
       </list>
     </recent_temporary>
   </component>
@@ -109,11 +168,22 @@
       <updated>1592833802278</updated>
       <workItem from="1592833803589" duration="1524000" />
       <workItem from="1592875379365" duration="1503000" />
-      <workItem from="1592876920846" duration="3526000" />
+      <workItem from="1592876920846" duration="13132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
