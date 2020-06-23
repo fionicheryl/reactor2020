@@ -27,4 +27,5 @@ public class ExceptionDemo {
                 })
                 .subscribe(System.out::println);
     }
+
 }
