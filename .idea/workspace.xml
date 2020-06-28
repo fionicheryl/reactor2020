@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b26be0c-9890-46f3-9226-f794f7199335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/concatmap/ConcatMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/flatmap/FlatMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/exception/ExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/exception/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/backpressure/BackPressureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/buffer/BufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/collect/CollectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/collect/CollectMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/disposable/DisposableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/merge/MergeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/parallel/ParallelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/take/TakeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/verify/VerifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/window/WindowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/zip/ZipWithDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/concatmap/ConcatMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/concatmap/ConcatMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/flatmap/FlatMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/flatmap/FlatMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/entity/Leader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/fion/reactor/demo/map/MapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/flatmap/FlatMapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/flatmap/FlatMapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/map/Employee$EmployeeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/map/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/map/Leader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/map/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/reactor-demo/target/classes/com/fion/reactor/demo/map/MapDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,82 +84,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlatMapDemo.flatMap">
-    <configuration name="ExceptionDemo.error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VerifyDemo.verify">
+    <configuration name="DisposableDemo.disposable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.exception.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.disposable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.exception" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.exception.ExceptionDemo" />
-      <option name="METHOD_NAME" value="error" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.disposable" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.disposable.DisposableDemo" />
+      <option name="METHOD_NAME" value="disposable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionDemo.errorContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeDemo.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.exception.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.merge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.exception" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.exception.ExceptionDemo" />
-      <option name="METHOD_NAME" value="errorContinue" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.merge" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.merge.MergeDemo" />
+      <option name="METHOD_NAME" value="merge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionDemo.errorResume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelDemo.parallel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.exception.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.exception" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.exception.ExceptionDemo" />
-      <option name="METHOD_NAME" value="errorResume" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.parallel" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.parallel.ParallelDemo" />
+      <option name="METHOD_NAME" value="parallel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatMapDemo.flatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.flatmap.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.verify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.flatmap" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.flatmap.FlatMapDemo" />
-      <option name="METHOD_NAME" value="flatMap" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.verify" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.verify.VerifyDemo" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo.log" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyDemo.verify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fion.reactor.demo.map.*" />
+          <option name="PATTERN" value="com.fion.reactor.demo.verify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.map" />
-      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.map.MapDemo" />
-      <option name="METHOD_NAME" value="log" />
+      <option name="PACKAGE_NAME" value="com.fion.reactor.demo.verify" />
+      <option name="MAIN_CLASS_NAME" value="com.fion.reactor.demo.verify.VerifyDemo" />
+      <option name="METHOD_NAME" value="verify" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FlatMapDemo.flatMap" />
-        <item itemvalue="JUnit.ExceptionDemo.errorResume" />
-        <item itemvalue="JUnit.ExceptionDemo.errorContinue" />
-        <item itemvalue="JUnit.ExceptionDemo.error" />
-        <item itemvalue="JUnit.MapDemo.log" />
+        <item itemvalue="JUnit.VerifyDemo.verify" />
+        <item itemvalue="JUnit.VerifyDemo" />
+        <item itemvalue="JUnit.MergeDemo.merge" />
+        <item itemvalue="JUnit.ParallelDemo.parallel" />
+        <item itemvalue="JUnit.DisposableDemo.disposable" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +186,10 @@
       <updated>1592833802278</updated>
       <workItem from="1592833803589" duration="1524000" />
       <workItem from="1592875379365" duration="1503000" />
-      <workItem from="1592876920846" duration="16980000" />
+      <workItem from="1592876920846" duration="24156000" />
+      <workItem from="1593063193155" duration="454000" />
+      <workItem from="1593307236931" duration="598000" />
+      <workItem from="1593309992711" duration="10220000" />
     </task>
     <servers />
   </component>
@@ -177,7 +201,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

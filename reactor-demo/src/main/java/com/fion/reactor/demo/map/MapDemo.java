@@ -1,6 +1,8 @@
 package com.fion.reactor.demo.map;
 
 import cn.hutool.core.bean.BeanUtil;
+import com.fion.reactor.demo.entity.Employee;
+import com.fion.reactor.demo.entity.Leader;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;

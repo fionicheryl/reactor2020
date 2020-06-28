@@ -1,4 +1,4 @@
-package com.fion.reactor.demo.map;
+package com.fion.reactor.demo.entity;
 
 import lombok.Data;
 
